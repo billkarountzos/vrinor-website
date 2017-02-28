@@ -5,8 +5,8 @@
     <title>VRinOR, An educational VR platform for healthcare professionals</title>
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <meta content="Bodo - Simple One Page Personal" name="description">
-    <meta content="BdgPixel" name="author">
+    <meta content="VRinOR, An educational VR platform for healthcare professionals" name="description">
+    <meta content="Mativision" name="author">
     <!--Fav-->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -18,6 +18,18 @@
     <link href="css/magnific-popup.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
+
+    <!--google analytics-->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-76416226-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
     
     <!--fonts google-->
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
@@ -41,9 +53,9 @@
       <div class="for-sticky">
         <!--LOGO-->
         <div class="col-md-2 col-xs-6 logo">
-          <a href="index.html"><img alt="VRinOR" class="logo-nav" src="images/VRinOR_logo_header.png"></a>
-          powered by 
-          <a href="index.html"><img alt="VRinOR" class="logo-nav" src="images/mativision_header.png"></a>
+         <!-- <a href="index.html"><img alt="VRinOR" class="logo-nav" src="images/VRinOR_logo_header.png"></a>
+          powered by -->
+          <a data-scroll="" href="#home"><img alt="VRinOR" class="logo-nav" src="images/mativision_header.png"></a>
         </div>
         <!--/.LOGO END-->
       </div>
@@ -121,26 +133,19 @@
           <div class="col-md-6 col-sm-12 col-xs-12 white-col">
             <div class="row">
               <!--OWL CAROUSEL2-->
-              
                 <div class="col-md-12">
                   <div class="wrap-about">
                     <div class="w-content">
                       <p class="head-about">
                         <strong>Virtual Reality in the Operating Room</strong><br/><br/>
-
-A global platform that uses Mativision’s proprietary VR technology for good, helping people around the world gain easier and immersive access to medical training.<br/>
-
-Imagine 10 years ago trying to envision the way we use smartphones today. It’s impossible.
-That’s the promise of VR today. VR at its best shouldn’t replace real life, just modify it, giving us access to so much more that is just out of reach physically and economically.<br/>
-
-If you can dream it, VR can make it and Mativision has been producing successfully VR experiences for more than 8 years placing our technology at the forefront of the VR industry and enabling us to deliver a global medical training platform.<br/><br/>
+                        A global platform that uses Mativision’s proprietary VR technology for good, helping people around the world gain easier and immersive access to medical training.<br/>
+                        Imagine 10 years ago trying to envision the way we use smartphones today. It’s impossible.
+                        That’s the promise of VR today. VR at its best shouldn’t replace real life, just modify it, giving us access to so much more that is just out of reach physically and economically.<br/>
+                        If you can dream it, VR can make it and Mativision has been producing successfully VR experiences for more than 8 years placing our technology at the forefront of the VR industry and enabling us to deliver a global medical training platform.<br/><br/>
                       </p>
-                      
-                    <a href="https://itunes.apple.com/app/vrinor/id1096072936?ls=1&mt=8" target="_blank"><img src="images/appstore.png"></a>
-                    <a href="https://play.google.com/store/apps/details?id=com.mativision.vrinorandroid&hl=en" target="_blank"><img src="images/playstore.png"></a><br/>
-                    <a href="https://www.oculus.com/experiences/gear-vr/914641785316114/" target="_blank"><img src="images/gearvr.png"></a>
-                      
-                      
+                      <a href="https://itunes.apple.com/app/vrinor/id1096072936?ls=1&mt=8" target="_blank"><img src="images/appstore.png"></a><br/>
+                      <a href="https://play.google.com/store/apps/details?id=com.mativision.vrinorandroid&hl=en" target="_blank"><img src="images/playstore.png"></a><br/>
+                      <a href="https://www.oculus.com/experiences/gear-vr/914641785316114/" target="_blank"><img src="images/gearvr.png"></a>
                     </div>
                   </div>
                 </div>
@@ -150,7 +155,7 @@ If you can dream it, VR can make it and Mativision has been producing successful
         <!--/.ABOUT END-->
 
         <!--PROBLEMS-->
-        <section class="grey-bg" id="problems">
+        <section id="problems" class="grey-bg">
           <div class="container">
             <div class="row">
               <div class="col-md-3">
@@ -174,9 +179,8 @@ If you can dream it, VR can make it and Mativision has been producing successful
                           CHALLENGES FACING MEDICAL TRAINING AND EDUCATION
                         </p>
                         
-                          <ul class="left">
-                            <li>
-                          Specialist medical training is inaccessible and expensive.</li>
+                          <ul class="left problemlist">
+                            <li>Specialist medical training is inaccessible and expensive.</li>
                             <li>1-size-fits-all training modules are not efficient.</li> 
                             <li>E-learning technologies have reached their limits. </li>
                           </ul>
@@ -261,7 +265,7 @@ If you can dream it, VR can make it and Mativision has been producing successful
                           GLOBAL MEDICAL VR PLATFORM
                         </p>
                         <p>
-                          We are creating a unified VR-content deliver platform, dedicated to the distribution of medical VR content.
+                          We are creating a unified VR-content delivery platform, dedicated to the distribution of medical VR content.
                         </p>
                       </div>
                     </li>
@@ -286,107 +290,8 @@ If you can dream it, VR can make it and Mativision has been producing successful
                 </p>
               </div>
               <div class="col-md-9 content-right">
-                <div class="row">
+                <div class="youtube-how">
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/sMIHaP1JcuA" frameborder="0" allowfullscreen></iframe>
-                 <!-- <ul class="listing-item">
-                    <li>
-                      <div class="col-md-6 col-sm-6">
-                        <div class="wrap-card">
-                          <div class="card">
-                            <h2 class="year">
-                              2007 - 2009
-                            </h2>
-                            <p class="job">
-                              web designer
-                            </p>
-                            <p class="company">
-                              Corp Project
-                            </p>
-                            <hr>
-                            <div class="text-detail">
-                              <p>
-                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-
-                    <li>
-                      <div class="col-md-6 col-sm-6">
-                        <div class="wrap-card">
-                          <div class="card">
-                            <h2 class="year">
-                              2009 - 2010
-                            </h2>
-                            <p class="job">
-                              web designer
-                            </p>
-                            <p class="company">
-                              Google inc
-                            </p>
-                            <hr>
-                            <div class="text-detail">
-                              <p>
-                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>  
-                  <ul class="listing-item">
-                    <li>
-                      <div class="col-md-6 col-sm-6">
-                        <div class="wrap-card">
-                          <div class="card">
-                            <h2 class="year">
-                              2010 - 2014
-                            </h2>
-                            <p class="job">
-                              crative director 
-                            </p>
-                            <p class="company">
-                              41 studio
-                            </p>
-                            <hr>
-                            <div class="text-detail">
-                              <p>
-                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-
-                    <li>
-                      <div class="col-md-6 col-sm-6">
-                        <div class="wrap-card">
-                          <div class="card">
-                            <h2 class="year">
-                              2014 - NOW
-                            </h2>
-                            <p class="job">
-                              fullstack designer
-                            </p>
-                            <p class="company">
-                              Freelance
-                            </p>
-                            <hr>
-                            <div class="text-detail">
-                              <p>
-                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>-->
-
                 </div>
               </div>
             </div>
@@ -397,15 +302,34 @@ If you can dream it, VR can make it and Mativision has been producing successful
 
         <!--TESTIMONIAL-->
         <section id="testimonial">
-          <div class="container">            
+          <div class="container">
             <div class="row wrap-testimonial">
-              <div class="col-md-10 col-md-offset-1">
-                <div class="owl-carousel">
+              <div class="col-md-12x">
+                <div class="col-md-12 ranked">
+                  Ranked in the top medical tech developments for 2016
+                </div>
                   <div class="list-testimonial">
                     <div class="content-testimonial">
-                      <img alt="logo" src="images/testim.png">                      
+                      <!--<img alt="logo" src="images/testim.png">-->
+                      <a class="col-md-2 col-xs-6" href="http://www.medgadget.com/2016/12/medgadgets-best-medical-technologies-2016.html" target="_blank"><img src="images/press/01medgadget.png" alt=""></a>
+                      <a class="col-md-2 col-xs-6" href="http://edition.cnn.com/2016/04/21/health/virtual-reality-cancer-surgery/" target="_blank"><img src="images/press/02cnn.png" alt=""></a>
+                      <a class="col-md-2 col-xs-6" href="http://www.mirror.co.uk/news/uk-news/watch-live-cancer-surgery-streamed-7754222" target="_blank"><img src="images/press/03mirror.png" alt=""></a>
+                      <a class="col-md-2 col-xs-6" href="http://www.techradar.com/news/wearables/world-s-first-virtual-reality-operation-will-happen-this-week-and-you-can-watch-1318817" target="_blank"><img src="images/press/04techradar.png" alt=""></a>
+                      <a class="col-md-2 col-xs-6" href="http://www.foxnews.com/health/2016/04/14/british-surgeons-live-stream-operation-with-360-degree-cameras.html" target="_blank"><img src="images/press/05foxnews.png" alt=""></a>
+                      <a class="col-md-2 col-xs-6" href="http://www.telegraph.co.uk/technology/2016/04/14/watch-the-worlds-first-surgery-streamed-in-virtual-reality-live/" target="_blank"><img src="images/press/06thetelegraph.png" alt=""></a>
+                      <a class="col-md-2 col-xs-6" href="http://news.sky.com/story/live-operation-broadcast-in-virtual-reality-10242518" target="_blank"><img src="images/press/07skynews.png" alt=""></a>
+                      <a class="col-md-2 col-xs-6" href="http://secure.mativision.com/datafox/" target="_blank"><img src="images/press/08datafox.png" alt=""></a>
+                      <a class="col-md-2 col-xs-6" href="http://www.mativision.com/images/ft.jpg" target="_blank"><img src="images/press/09financialtimes.png" alt=""></a>
+                      <a class="col-md-2 col-xs-6" href="http://www.bbc.com/news/technology-36046948" target="_blank"><img src="images/press/10bbc.png" alt=""></a>
+                      <a class="col-md-2 col-xs-6" href="http://www.alphr.com/virtual-reality/1004689/how-samsung-gear-vr-is-helping-to-train-doctors-to-save-patients-lives" target="_blank"><img src="images/press/11alphr.png" alt=""></a>
+                      <a class="col-md-2 col-xs-6" href="http://www.theverge.com/2016/4/14/11428580/watch-surgery-live-virtual-reality-cardboard-gear-vr" target="_blank"><img src="images/press/12verge.png" alt=""></a>
+                      <a class="col-md-2 col-xs-6" href="https://www.wareable.com/vr/first-ever-vr-livestream-surgery-2572" target="_blank"><img src="images/press/13wearable.png" alt=""></a>
+                      <a class="col-md-2 col-xs-6" href="http://www.businessinsider.com/virtual-reality-surgery-2016-4" target="_blank"><img src="images/press/14tech.png" alt=""></a>
+                      <a class="col-md-2 col-xs-6" href="http://mashable.com/2016/04/14/live-stream-vr-operation/#vSbQLMtB8sqFma" target="_blank"><img src="images/press/15mashable.png" alt=""></a>
+                      <a class="col-md-2 col-xs-6" href="http://www.gizmodo.co.uk/2016/04/watch-the-worlds-first-vr-360-degree-surgery-live-today-at-1pm/" target="_blank"><img src="images/press/16gizmodo.png" alt=""></a>
                     </div>
                   </div>
+
                    <!--<div class="list-testimonial">
                     <div class="content-testimonial">
                       <img alt="logo" src="images/testim2.png">                      
@@ -421,7 +345,7 @@ If you can dream it, VR can make it and Mativision has been producing successful
                       <img alt="logo" src="images/testim4.png">                      
                     </div>
                   </div>-->
-                </div>
+
               </div>
             </div>
           </div>
@@ -441,10 +365,11 @@ If you can dream it, VR can make it and Mativision has been producing successful
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
                 </p>-->
               </div>
-              <div class="col-md-9 content-right">
+              <div class="clearfix"></div>
+              <div class="col-md-9 ">
                 <div class="row">
-                  <a href="http://www.amalgamatedvision.com/" target="_blank"><img src="images/amalgamated.png"></a>
-                  <a href="http://www.pid-academy.org/" target="_blank"><img src="images/pid_logo.png"></a>
+                  <a class="col-md-6 partner" href="http://www.amalgamatedvision.com/" target="_blank"><img src="images/amalgamated.png"></a>
+                  <a class="col-md-6 partner" href="http://www.pid-academy.org/" target="_blank"><img src="images/pid_logo.png"></a>
                 </div>
               </div>
             </div>
@@ -498,7 +423,7 @@ If you can dream it, VR can make it and Mativision has been producing successful
                         </h3>
                       </a>
                       <p class="content-blog">
-                        "I certainly see this as a technology that is going to be adopted very widely and I certainly hope because there is such a huge potential in it and I am absolutely convinced that this is the way forward and this is the future.""
+                        "I certainly see this as a technology that is going to be adopted very widely and I certainly hope so because there is such a huge potential in it and I am absolutely convinced that this is the way forward and this is the future.""
                       </p>
                     </div>
                   </div>
@@ -515,7 +440,7 @@ If you can dream it, VR can make it and Mativision has been producing successful
                         </h3>
                       </a>
                       <p class="content-blog">
-                       Dr Manos Fandridis, MD, Phd - Hand Surgery-Upper Limb and Microsurgery Department, leading surgeon of the KAT Live Surgeries and one of the three surgeons who will participate in the HIMSS 2017 live sessions, said about the forthcoming live streaming: “In a trauma hospital, critical surgical operations can be life saving for the patient and the VRinOR® platform multiplies their value by spreading relevant knowledge and practices to the global medical community”.
+                       “In a trauma hospital, critical surgical operations can be life saving for the patient and the VRinOR® platform multiplies their value by spreading relevant knowledge and practices to the global medical community”.
                       </p>
                     </div>
                   </div>
@@ -579,73 +504,25 @@ If you can dream it, VR can make it and Mativision has been producing successful
         </section>
         <!--/.BLOG END-->
 
-
-        <!--SKILLS-->
-       <!-- <section class="gold-bg" id="figures">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3">
-                <h3 class="title-small">
-                  <span>VRinOR<sup>®</sup> Highlights</span>
-                </h3>
-                
-              </div>
-              <div class="col-md-9 content-right">-->
-                <!--SKILLST-->  
-                <!--<ul>
-                  <li>                           
-                    <div class="title head-sm">
-                      VRinOR<sup>®</sup> has ranked in the top medical tech developments for 2016
-                    </div> 
-                  </li>
-                  <li>                                  
-                    <div class="title head-sm">
-                     20+VR surgeries licensed for inclusion in VRinOR<sup>®</sup> in 2 months period 
-                    </div>
-                  </li>
-                  <li>                                                       
-                    <div class="title head-sm">
-                      VRinOR<sup>®</sup> delivered the World’s first VR Live Stream Surgery
-                    </div>
-                  </li>                    
-                  <li>                
-                    <div class="title head-sm">
-                      Close to 100.000 downloads and keep counting 
-                    </div>
-                  </li>                  
-                  <li>
-                    <div class="title head-sm">
-                      VRinOR<sup>®</sup> case study at Oculus Connect
-                    </div>
-                  </li>
-                </ul>
-                 
-                
-              </div>
-            </div>
-          </div>
-        </section>-->
-        <!--/.SKILLS END-->
-
         <!--CONTACT-->
         <section id="contact" class="white-bg">
           <div class="container">
             <div class="row">
-              <div class="col-md-3">
+              <div class="col-md-5">
                 <h3 class="title-small">
                   <span>Contact</span>
                 </h3>
                 <p class="content-detail">
-                  London
+                  <span class="contact-large">London</span>
                   [tel] +44 (0)7778 634 651<br/>
-                  Athens
+                  <span class="contact-large">Athens</span>
                   [tel] +30 6973 316 163<br/>
-                  New York
+                  <span class="contact-large">New York</span>
                   [tel] +1 929 238 4108
                 </p>
 
               </div>
-              <div class="col-md-9 content-right">
+              <div class="col-md-7 content-right">
                 <div class="status alert alert-success" style="display: none"></div>
                 <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php" role="form">
                   <div class="group">

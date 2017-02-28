@@ -1,0 +1,6 @@
+# This allows you to redirect your entire website to any other domain
+#Redirect 301 / http://mativision.com/#vrinor
+
+#RewriteEngine On
+#RewriteCond %{REQUEST_URI} !/staging
+#RewriteRule (.*) http://mativision.com/#vrinor [R=301,NE,L]

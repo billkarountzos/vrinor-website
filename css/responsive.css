@@ -1,8 +1,4 @@
 @media screen and (max-width: 480px){
-	/*----- layout ----*/
-	.grey-bg, .white-bg{
-		padding: 40px 0; 
-	}
 	/*---- hero -----*/
 	.hero-content{
 		min-width: 280px; 
@@ -39,7 +35,7 @@
 
 
   /*------- testimonial -------*/
-  #testimonial{ height: 700px;}
+
 
   .skillst {margin-top: 50px;}
 }
