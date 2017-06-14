@@ -200,7 +200,8 @@ section {
   display: inline-block;
   width: 100%;
   padding: 0;
-  margin: 0;
+  /*margin: 0;*/
+  margin: 50px 0;
 }
 
 /*----------------------------------------- 4) Header --------------------------------------------------*/
@@ -477,7 +478,7 @@ h5 {
 p {
   letter-spacing: 0.5px;
   font-size: 13px;
-  line-height: 34px;
+  /*line-height: 34px;*/
   font-weight: 300;
 }
 #home h1 {
@@ -521,7 +522,7 @@ p {
 
 /*----------------------------------------- 6) Hero --------------------------------------------------*/
 #home {
-  background: url('../images/vrinor_bgd.jpg');
+  background: url('../images/vlippmed_bgd.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -556,6 +557,8 @@ p {
   left: 50%;
   top: 35%;
   padding: 65px;
+  font-family: "Roboto Slab", arial;
+  font-size: 1.15em;
   /*background: rgba(0, 0, 0, 0.5);
   outline: 4px double #000;
   outline-offset: 8px;*/
@@ -816,7 +819,7 @@ ul.left{
   font-size: 1.5em;
   color: white;
   margin-top: 40px;
-  text-align: center;
+  /*text-align: center;*/
 }
 .list-testimonial {
   display: block;
@@ -1014,15 +1017,21 @@ ul.left{
   margin: 40px 0 20px 0;
   font-size: 14px;
 }
+.wrap-about .stores {
+  margin-top: 20px;
+}
 
 /*----------- problems ------------*/
 #problems .problemlist {
   padding-left: 15px;
 }
+#problems .problemlist li {
+  margin-bottom: 20px;
+}
 
 /*----------- vision ------------*/
 #vision .listing-item li {
-  margin: 50px 0;
+  /*margin: 50px 0;*/
 }
 
 /*----------- how ------------*/

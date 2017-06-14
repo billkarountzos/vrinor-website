@@ -23,9 +23,9 @@
       var $this = $(this);
       var name = $this.find( "input[name='name']" ).val(),
           email = $this.find( "input[name='email']" ).val(),
-          message = $this.find( "textarea[name='message']" ).val()
-          //captcha =  $this.find( "textarea[name='g-recaptcha-response']" ).val()
-      $.post($(this).attr('action'), {name:name, email:email, message:message }, function(data) {
+          message = $this.find( "textarea[name='message']" ).val(),
+          captcha =  $this.find( "textarea[name='g-recaptcha-response']" ).val()
+      $.post($(this).attr('action'), {name:name, email:email, message:message, captcha:captcha }, function(data) {
         $this.prev().text(data.message).fadeIn().delay(3000).fadeOut();
       },'json');
       return false;
